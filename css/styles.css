@@ -88,6 +88,8 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+/* ----------------------css custom---------------------- */
 .positioning{
   padding: 0;
   margin: 0;
@@ -113,6 +115,43 @@ body {
   mix-blend-mode: color-burn;
   opacity: 0.5;
 }
+
+.baseCard{
+  width: 219px;
+  height: 275px;
+  background-color: white;
+  padding: 12px 10px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
+.imageCard{
+  width: 197.15px;
+  height: 155.11px;
+  margin-bottom: 32px;
+}
+
+.itemName{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 14px
+}
+
+.linkItem{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #F27F0C;
+  text-decoration: none;
+}
+
+/* ----------------------css custom---------------------- */
 
 hr {
   margin: 1rem 0;

@@ -13,18 +13,26 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body
     style="
-      background: url(assets/Background.png);
-      height: fit-content;
-      background-repeat: no-repeat;
+      background: url(assets/Background.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     "
   >
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark p-4 style">
       <div class="container">
-        <a class="navbar-brand" href="#">Museum</a>
+        <a class="navbar-brand" href="index.html">Museum</a>
         <a class="navbar-brand" style="color: #ff8000">Click</a>
         <button
           class="navbar-toggler"
@@ -43,26 +51,47 @@
               class="nav-item"
               style="font-family: Crimson Pro; font-size: 20px"
             >
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li
               class="nav-item"
               style="font-family: Crimson Pro; font-size: 20px"
             >
-              <a class="nav-link" href="#Collection">Collection</a>
+              <a class="nav-link active" href="collection.html">Collection</a>
             </li>
             <li
               class="nav-item"
               style="font-family: Crimson Pro; font-size: 20px"
             >
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- <section class="py-5 bg-dark positioning"></section> -->
+    <main style="margin: 108px 11px 108px 82px">
+      <section style="margin: 0">
+        <div class="baseCard">
+          <img class="imageCard" src="" />
+          <p class="itemName">Gucci Cina</p>
+          <a class="linkItem">Lihat Selengkapnya</a>
+        </div>
+        <div class="baseCard">
+          <img class="imageCard" src="" />
+          <p class="itemName">Gucci Cina</p>
+          <a class="linkItem">Lihat Selengkapnya</a>
+        </div>
+        <div class="baseCard">
+          <img class="imageCard" src="" />
+          <p class="itemName">Gucci Cina</p>
+          <a class="linkItem">Lihat Selengkapnya</a>
+        </div>
+        <div class="baseCard">
+          <img class="imageCard" src="" />
+          <p class="itemName">Gucci Cina</p>
+          <a class="linkItem">Lihat Selengkapnya</a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
