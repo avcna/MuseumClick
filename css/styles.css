@@ -151,6 +151,11 @@ body {
   text-decoration: none;
 }
 
+.linkItem:hover{
+  cursor: pointer;
+  color:#F27F0C
+}
+
 /* ----------------------css custom---------------------- */
 
 hr {
