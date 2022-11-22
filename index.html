@@ -9,17 +9,30 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Museum Click</title>
-    <!-- Favicon
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
-    <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body
+    style="
+      background: url(assets/Background.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    "
+  >
+
     <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black p-4">
+    <nav class="navbar navbar-expand-lg navbar-dark p-4 style">
       <div class="container">
-        <a class="navbar-brand" href="#">Museum</a>
-        <a class="navbar-brand" style="color: #ff8000">Click</a>
+        <a class="navbar-brand" href="index.html"
+          >Museum<span style="color: #ff8000">Click</span></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -29,42 +42,31 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+
+        <!-- Toggler -->
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-2">
             <li
               class="nav-item"
-              style="font-family: Crimson Pro; font-size: 20px"
-            >
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
+              style="font-family: Crimson Pro; font-size: 20px">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li
               class="nav-item"
-              style="font-family: Crimson Pro; font-size: 20px"
-            >
+              style="font-family: Crimson Pro; font-size: 20px">
               <a class="nav-link" href="collection.html">Collection</a>
             </li>
             <li
               class="nav-item"
-              style="font-family: Crimson Pro; font-size: 20px"
-            >
-              <a class="nav-link" href="#About">About</a>
+              style="font-family: Crimson Pro; font-size: 20px">
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Header - set the background image for the header in the line below-->
-    <!-- <header class="py-9 bg-image-full" style="background-image: url(assets/museumOK.jpg)">
-            <div class="text-center my-3"> -->
-    <!-- <h1 class="text-white fs-3" style="font-family:Crimson Pro">Museum Brawijaya</h1> -->
-    <!-- <p class="text--100 mb-0" style="font-family:Crimson Pro">Selamat Datang Pengunjung</p> -->
-    <!-- </div>
-        </header> -->
-    <!-- Content section-->
 
     <section
       class="py-5 bg-dark positioning"
@@ -99,34 +101,76 @@
       </div>
     </section>
 
-    <!-- Image element - set the background image for the header in the line below -->
-    <div class="py-5 bg-dark" style="background: black">
-      <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-      <div style="height: 20rem"></div>
-    </div>
-    <!-- Content section-->
-    <section class="py-5" id="About">
-      <div class="container my-5">
-        <div class="row justify-content-center">
+    <!-- Collection -->
+    <section
+      class="py-5 bg-black positioning" id="Collection">
+      <div class="container my-5 style">
+        <div class="row justify-content-start">
           <div class="col-lg-6">
-            <h2>Engaging Background Images</h2>
-            <p class="lead">
-              The background images used in this template are sourced from
-              Unsplash and are open source and free to use.
-            </p>
-            <p class="mb-0">
-              I can't tell you how many people say they were turned off from
-              science because of a science teacher that completely sucked out
-              all the inspiration and enthusiasm they had for the course.
-            </p>
+            
+              <div class="col-lg-6">
+                <img src="assets/Collection.png" class="row justify-content-start" />
+            </div>
+          </div>
+          <div class="col-lg-5 row justify-content-left">
+            <div class="vertical-center" style="margin-left:100px;margin-top: 100px;">
+            <h2 style="font-family: Crimson Pro; color: #d9d9d9">
+              KOLEKSI
+            </h2>
+            <h2 style="font-family: Crimson Pro; color: #d9d9d9">
+              MUSEUM BRAWIJAYA
+            </h2>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Content section-->
+    <section class="py-5" style="background-color: white;">
+    <div class="container my-5">
+      <div class="row justify-content-left">
+        <div class="col-lg-6">
+          <div class="vertical-center">
+             <h2 style="font-family: Crimson Pro;">
+              Museum Brawijaya</h2>
+            <p class="lead" style="font-family: Crimson Pro;">
+              Informasi mengenai kami
+            </p>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 justify-content-end" style="margin-left: 0px">
+          <div class="row">
+            <div class="col">
+           <p style="font-family: Crimson Pro; font-size: 20px;">
+                Jam Buka :
+           <br>Senin 08.00-15.00
+           <br>Selasa 08.00-15.00
+           <br>Rabu 08.00-15.00
+           <br>Kamis 08.00-15.00
+           <br>Jumat 08.00-11.30
+           </p></div>
+           
+            <div class="col-lg-7">
+            <p style="font-family: Crimson Pro; font-size: 20px;color:black;">
+              Harga Tiket
+              <p style="font-family: Crimson Pro; font-size: 25px;color:#ff8000; margin-top: -20px;">
+            Rp. 5.000</p>
+           </tr>
+           <p style="font-family: Crimson Pro; font-size: 20px;color:black; margin-top: 15px;">
+            Alamat
+            <p style="font-family: Crimson Pro; font-size: 25px;color:#ff8000; margin-top: -20px; ">
+              Jl. Ijen, Malang, Jawa Timur</p>
+           </p>
+           </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer-->
-    <footer class="py-5 bg-dark">
+    <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; RPL-07 2022</p>
+        <p class="m-0 text-center text-white">Copyright &copy; RPL-05 2022</p>
       </div>
     </footer>
     <!-- Bootstrap core JS-->
